@@ -131,6 +131,8 @@
     padding: 0 px2rem(20px);
     font-size: ms(-1);
     opacity: 0.7;
+    text-transform: uppercase;
+    font-weight: 700;
   }
 }
 
@@ -163,7 +165,7 @@
   width: 100%;
   margin: auto px2rem(12px);
   padding: px2rem(8px) 0;
-  color: var(--md-footer-fg-color--lighter);
+  color: var(--md-footer-fg-color--dark);
   font-size: ms(-1);
 
   // [tablet portrait +]: Show next to social media links
@@ -173,7 +175,7 @@
 
   // Highlight copyright information
   &__highlight {
-    color: var(--md-footer-fg-color--light);
+    color: var(--md-footer-fg-color--dark);
   }
 }
 

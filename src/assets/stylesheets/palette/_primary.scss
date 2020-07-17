@@ -76,8 +76,7 @@
   --md-primary-bg-color--light:        hsla(0, 0%, 0%, 0.54);
 
   // Text color shades
-  --md-text-link-color:                hsla(#{hex2hsl($clr-indigo-500)}, 1);
-
+  --md-text-link-color:                hsla(195, 100%, 44%)
   // Add a border if there are no tabs
   .md-hero--expand {
     border-bottom: px2rem(1px) solid hsla(0, 0%, 0%, 0.07);
@@ -137,9 +136,8 @@
   --md-primary-fg-color--dark:         hsla(0, 0%, 0%, 1);
   --md-primary-bg-color:               hsla(0, 0%, 100%, 1);
   --md-primary-bg-color--light:        hsla(0, 0%, 100%, 0.7);
-
   // Text color shades
-  --md-text-link-color:                hsla(#{hex2hsl($clr-indigo-500)}, 1);
+  --md-text-link-color:                hsla(195, 100%, 44%)
 
   // Application header (stays always on top)
   .md-header {

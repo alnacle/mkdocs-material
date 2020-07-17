@@ -231,29 +231,10 @@
       {% endif %}
     </div>
 
-    <!-- Application header -->
-    {% block header %}
-      {% include "partials/header.html" %}
-    {% endblock %}
-
-    <!-- Container, necessary for web-application context -->
+     <!-- Container, necessary for web-application context -->
     <div class="md-container" data-md-component="container">
 
-      <!-- Hero teaser -->
-      {% block hero %}
-        {% if page and page.meta and page.meta.hero %}
-          {% include "partials/hero.html" with context %}
-        {% endif %}
-      {% endblock %}
-
-      <!-- Tabs with outline -->
-      {% block tabs %}
-        {% if "tabs" in config.theme.features %}
-          {% include "partials/tabs.html" %}
-        {% endif %}
-      {% endblock %}
-
-      <!-- Main area -->
+       <!-- Main area -->
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
 

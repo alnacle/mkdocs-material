@@ -26,8 +26,8 @@
 
 // Navigation container
 .md-nav {
-  font-size: px2rem(14px);
-  line-height: 1.3;
+  font-size: .8rem;
+  line-height: 1.6;
 
   // List title
   &__title {
@@ -54,7 +54,7 @@
         img,
         svg {
           display: block;
-          width: px2rem(48px);
+          width: 10.5rem;
           height: px2rem(48px);
         }
 
@@ -85,6 +85,9 @@
     // 2nd+ level items
     & & {
       padding-right: 0;
+	  font-size: .7rem;
+	  line-height: 1.3;
+	  color: #636363;
 
       // Adjust for right-to-left languages
       [dir="rtl"] & {
@@ -127,7 +130,8 @@
 
     // Active link
     .md-nav__item &--active {
-      color: var(--md-text-link-color);
+      color: var(--md-default-fg-color--light);
+	  font-weight: 600;
     }
 
     // Reset active color for nested list titles
